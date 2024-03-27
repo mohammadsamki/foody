@@ -38,6 +38,9 @@ body{
 #context>h1{
     /* font-size: 30vw;    */
 
+    #context{
+        height: 850px;
+    }
 
 
 #grid1{
@@ -183,4 +186,63 @@ width: 400px;
         font-size: 15px;
     }
     
+}
+
+
+#productGrid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    margin-left: 20px;
+    padding: 10px;
+}
+.productItem{
+    background-color: gray;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    /* /*align-items: center; */
+    
+
+}
+.favButton{
+    float: right;
+    /* position: relative; */
+    background-color: #39DB4A;
+    width: 90px;
+    height: 80px;
+    border-radius: 0px 50px ;
+    position: relative;
+
+}
+.bi-heart{
+    width: 30px;
+    color: aliceblue;
+    /*margin-left: 30px;
+    margin-top: 30px;
+    */
+    /* top: 50%;
+  left: 50%;
+    transform: translate(50% , 50%) ; */
+    position: absolute;
+    left: 40%;
+    top: 40%;
+
+  
+}
+.bi-heart-fill{
+    display: none;
+    width: 30px;
+    color: aliceblue;
+    /*margin-left: 30px;
+    margin-top: 30px;
+    */
+    /* top: 50%;
+  left: 50%;
+    transform: translate(50% , 50%) ; */
+    position: absolute;
+    left: 40%;
+    top: 40%;
 }
