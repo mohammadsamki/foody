@@ -4,8 +4,14 @@ var email = document.getElementById('form3Example3c');
 var password = document.getElementById('form3Example4c');
 var confirmPassword = document.getElementById('form3Example4cd');
 var dataFromStorage = JSON.parse(localStorage.getItem('userDataFromLocal'));
+console.log(dataFromStorage);
+if (dataFromStorage ==null) {
+    var allUsers=[];
+}
+else {
+    var allUsers=dataFromStorage;
+}
 
-var allUsers=dataFromStorage
 registerForm.addEventListener('submit', function (e) {
     e.preventDefault();
     
