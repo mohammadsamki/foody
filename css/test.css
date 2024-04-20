@@ -1,0 +1,34 @@
+/* body{
+    background-color: red;
+} */
+/* #demo {
+    -moz-transform:none;
+    -webkit-transform:none;
+    -o-transform:none;
+    -ms-transform:none;
+    transform:none;
+    } */
+
+#demo:hover{
+        -moz-transform: scale(1.2) translate(13px, 4px) skew(10deg, -17deg);
+        -webkit-transform: scale(1.2) translate(13px, 4px) skew(10deg, -17deg);
+        -o-transform: scale(1.2) translate(13px, 4px) skew(10deg, -17deg);
+        -ms-transform: scale(1.2) translate(13px, 4px) skew(10deg, -17deg);
+        transform: scale(1.2) translate(13px, 4px) skew(10deg, -17deg);
+        transition: 1s;
+      
+}
+.clImages{
+    width: 200px;
+    height: 200px;
+}
+.w-100{
+    width: 100px;
+}
+#carouselExampleControls{
+    width: 80%;
+}
+.carousel-control-next{
+    background-color: red;
+    width: 50px;
+}
